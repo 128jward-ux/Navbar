@@ -1,6 +1,11 @@
- a {
+* {
+  overflow-x: clip;
+}
+
+a {
  font-family: "Bebas Neue", sans-serif;
     font-size: xx-large;
+    padding: 30px;
 }
 
 
@@ -13,11 +18,10 @@ body {
 
 .header {
     position: sticky;
+    top: 20px;
     padding: 20px 100px;
     display: flex;
     justify-content: space-between;
-    top: 0;
-    left: 0;
     width: 100%;
      align-items: center;
     z-index: 100;
